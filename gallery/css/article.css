@@ -1,0 +1,165 @@
+.wrapper {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  width: 900px;
+  margin: 50px auto 0;
+  padding: 60px;
+  background-color: #fff;
+}
+
+.wrapper__title {
+  padding-bottom: 10px;
+  font-size: 190%;
+  font-family: 'Pathway Gothic One', sans-serif;
+  color: #263555;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0;
+}
+
+.gallery__waterfall,
+.gallery__temple,
+.gallery__hotel,
+.gallery__rome,
+.gallery__island,
+.gallery__pole,
+.gallery__castle,
+.gallery__paris,
+.gallery__mountain {
+  margin: 0 5px 20px;
+  width: 290px;
+  height: 155px;
+}
+
+.gallery__waterfall {
+  background-image: url('../img/waterfall.png');
+}
+
+.gallery__temple {
+  background-image: url('../img/temple.png');
+}
+
+.gallery__hotel {
+  background-image: url('../img/hotel.png');
+}
+
+.gallery__rome {
+  background-image: url('../img/rome.png');
+}
+
+.gallery__island {
+  background-image: url('../img/island.png');
+}
+
+.gallery__pole {
+  background-image: url('../img/pole.png');
+}
+
+.gallery__castle {
+  background-image: url('../img/castle.png');
+}
+
+.gallery__paris {
+  background-image: url('../img/paris.png');
+}
+
+.gallery__mountain {
+  background-image: url('../img/mountain.png');
+}
+
+.gallery__zoom {
+  display: none;
+  background: #000;
+  width: 290px;
+  height: 155px;
+  opacity: 0.7;
+  flex: none;
+  text-align: center;
+  line-height: 188px;
+}
+
+.gallery__zoom-img {
+  width: 100px;
+  height: 50px;
+}
+
+.gallery__waterfall:hover>.gallery__zoom,
+.gallery__temple:hover>.gallery__zoom,
+.gallery__hotel:hover>.gallery__zoom,
+.gallery__rome:hover>.gallery__zoom,
+.gallery__island:hover>.gallery__zoom,
+.gallery__pole:hover>.gallery__zoom,
+.gallery__castle:hover>.gallery__zoom,
+.gallery__paris:hover>.gallery__zoom,
+.gallery__mountain:hover>.gallery__zoom {
+  display: block;
+}
+
+.gallery__to-top {
+  width: 30px;
+  height: 30px;
+  bottom: 25px;
+  right: 35px;
+  background: #38afe5;
+  position: absolute;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 25px;
+}
+
+.gallery__to-top-link,
+.gallery__to-top-link:visited {
+  text-decoration: none;
+  color: #fff;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2) {
+  .gallery__waterfall {
+    background-image: url('../img/waterfall2x.png');
+    background-size: contain;
+  }
+
+  .gallery__temple {
+    background-image: url('../img/temple2x.png');
+    background-size: contain;
+  }
+
+  .gallery__hotel {
+    background-image: url('../img/hotel2x.png');
+    background-size: contain;
+  }
+
+  .gallery__rome {
+    background-image: url('../img/rome2x.png');
+    background-size: contain;
+  }
+
+  .gallery__island {
+    background-image: url('../img/island2x.png');
+    background-size: contain;
+  }
+
+  .gallery__pole {
+    background-image: url('../img/pole2x.png');
+    background-size: contain;
+  }
+
+  .gallery__castle {
+    background-image: url('../img/castle2x.png');
+    background-size: contain;
+  }
+
+  .gallery__paris {
+    background-image: url('../img/paris2x.png');
+    background-size: contain;
+  }
+
+  .gallery__mountain {
+    background-image: url('../img/mountain2x.png');
+    background-size: contain;
+  }
+}
