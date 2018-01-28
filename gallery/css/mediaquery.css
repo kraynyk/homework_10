@@ -5,7 +5,8 @@
   .header__navigation {
     width: 384px;
     margin: 80px auto 55px;
-    flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
   }
   .header__navigation-element,
   .header__navigation-about {
@@ -13,7 +14,9 @@
     padding: 5px 20px;
   }
   .header__navigation-element-logo {
-    order: -1;
+    -webkit-box-ordinal-group: 0;
+        -ms-flex-order: -1;
+            order: -1;
     padding: 0;
     width: 100%;
     bottom: 35px;

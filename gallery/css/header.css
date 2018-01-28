@@ -1,8 +1,14 @@
 .header__navigation {
   width: 1020px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-evenly;
-  align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   margin: 100px auto;
   font-family: 'Pathway Gothic One', sans-serif;
   color: #fff;
